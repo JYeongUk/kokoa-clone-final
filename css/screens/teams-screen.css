@@ -1,0 +1,49 @@
+.main-screen {
+  padding: 95px 20px 0px 20px;
+}
+
+.info {
+  text-align: center;
+  margin: 15px 0;
+  opacity: var(--opacity);
+}
+
+.bookmark-unit__header {
+  border-top: 1px solid;
+  border-image: var(--grad-border);
+  border-image-slice: 1;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  opacity: var(--opacity);
+}
+
+.splash-screen {
+  background: radial-gradient(rgb(255, 42, 131), rgb(55, 0, 60));
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 7;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.splash-screen img {
+  border-radius: 50%;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(7);
+    opacity: 0;
+    visibility: hidden;
+  }
+}

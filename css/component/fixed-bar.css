@@ -1,0 +1,31 @@
+.fixed-bar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 45px 20px 25px 20px;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: white;
+  background-color: var(--main-color);
+  z-index: 2;
+}
+
+.fixed-bar div i {
+  margin: 0 7px;
+}
+
+.fixed-bar div a {
+  position: relative;
+}
+
+.dot {
+  left: 29px;
+  bottom: 25px;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(244, 37, 126);
+  border-radius: 50%;
+  position: absolute;
+}

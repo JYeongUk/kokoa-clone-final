@@ -1,0 +1,11 @@
+:root {
+  --grad-border: linear-gradient(
+    to right,
+    rgb(255, 42, 131),
+    rgb(148, 58, 250)
+  );
+  --opacity: 0.4;
+  --main-color: rgb(55, 0, 60);
+  --sub-color: rgb(255, 42, 131);
+  --main-opacity-color: rgba(55, 0, 60, 0.1);
+}

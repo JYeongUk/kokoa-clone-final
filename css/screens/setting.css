@@ -1,0 +1,44 @@
+.main-set {
+  padding: 90px 30px 50px 30px;
+}
+
+.settings-list {
+  margin-bottom: 30px;
+}
+
+.settings__setting {
+  margin: 0 25px;
+  padding: 20px 0;
+  border-bottom: 1px solid;
+  border-image: var(--grad-border);
+  border-image-slice: 1;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting:hover {
+  background-color: var(--main-opacity-color);
+}
+
+.settings__setting:last-child {
+  border: none;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings-setting__column:last-child {
+  opacity: 0.5;
+}
+
+.settings-list:last-child {
+  border-top: 1px solid;
+  border-image: var(--grad-border);
+  border-image-slice: 1;
+  margin: 25px 0px;
+}
